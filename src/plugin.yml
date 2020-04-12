@@ -1,0 +1,25 @@
+name: PexRankup
+author: Tomahawkmissile
+main: com.gmail.tomahawkmissile2.pexrankup.Main
+description: Allows users to rankup with Vault money.
+version: 1.0
+softdepend: [PermissionsEx, Vault]
+api-version: 1.15
+commands:
+  rankup:
+    description: Rank up
+    usage: /rankup
+  ranks:
+    description: List ranks
+    usage: /ranks
+
+permissions:
+  rankup.use:
+    description: Allows user to use the /rankup command
+    default: true
+  rankup.list:
+    description: Allows user to list ranks
+    default: true
+  rankup.cost.exempt:
+    description: Allows user to bypass rankup costs
+    default: op
